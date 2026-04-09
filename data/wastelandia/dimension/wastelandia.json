@@ -1,0 +1,62 @@
+{
+    "type": "minecraft:overworld",
+    "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "wastelandia:ash_barrens",
+                    "parameters": {
+                        "temperature": [0.0, 1.0],
+                        "humidity": [0.0, 0.0],
+                        "continentalness": [0.0, 0.0],
+                        "erosion": [0.0, 0.0],
+                        "depth": [0.0, 0.0],
+                        "weirdness": [0.1, 0.4],
+                        "offset": 0.0
+                    }
+                },
+                {
+                    "biome": "wastelandia:jagged_scree",
+                    "parameters": {
+                        "temperature": [-0.7, 0.0],
+                        "humidity": [0.0, 0.0],
+                        "continentalness": [0.0, 0.0],
+                        "erosion": [0.0, 0.0],
+                        "depth": [0.0, 0.0],
+                        "weirdness": [0.1, 1.0],
+                        "offset": 0.0
+                    }
+                },
+                {
+                    "biome": "wastelandia:irradiated_crater",
+                    "parameters": {
+                        "temperature": [0.6, 2.0], 
+                        "humidity": [0.0, 0.0],
+                        "continentalness": [0.0, 0.0],
+                        "erosion": [0.0, 0.0],
+                        "depth": [0.0, 0.0],
+                        "weirdness": [0.4, 2.0], 
+                        "offset": 0.0
+                    }
+                },
+                {
+                    "biome": "wastelandia:frozen_wasteland",
+                    "parameters": {
+                        "temperature": [-2.0, -0.7],
+                        "humidity": [0.0, 0.0],
+                        "continentalness": [0.0, 0.0],
+                        "erosion": [0.0, 0.0],
+                        "depth": [0.0, 0.0],
+                        "weirdness": [0.1, 1.0],
+                        "offset": 0.0
+                    }
+                }
+            ]
+
+           
+        },
+        "settings": "wastelandia:wastelandia_settings"
+    }
+}

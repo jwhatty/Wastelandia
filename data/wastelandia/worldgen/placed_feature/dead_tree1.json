@@ -1,0 +1,19 @@
+{
+    "feature": "wastelandia:dead_tree1",
+    "placement": [
+        {
+            "type": "rarity_filter",
+            "chance": 9
+        },
+        {
+            "type": "in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "biome"
+        }
+    ]
+}

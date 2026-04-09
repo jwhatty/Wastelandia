@@ -1,0 +1,6 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biomes": ["wastelandia:irradiated_crater"]
+  }
+}

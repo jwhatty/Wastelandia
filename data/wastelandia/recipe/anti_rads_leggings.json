@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["III", "C C", "I I"],
+  "key": { "I": "minecraft:iron_ingot", "C": "minecraft:coal_block" },
+  "result": {
+    "id": "minecraft:leather_leggings",
+    "components": {
+      "minecraft:item_name": { "text": "Anti-RADS Leggings", "color": "gold", "italic": false },
+      "minecraft:dyed_color": 4673362,
+      "minecraft:custom_data": "{anti_rad:1}",
+      "minecraft:max_damage": 580,
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "feature": "wastelandia:black_pillar1",
+    "placement": [
+        {
+            "type": "rarity_filter",
+            "chance": 1
+        },
+        {
+            "type": "in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "biome"
+        }
+    ]
+}

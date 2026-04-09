@@ -1,0 +1,73 @@
+{
+    "has_precipitation": false,
+    "temperature": 1.0,
+    "downfall": 0.4,
+    "effects": {
+        "sky_color": 11650977,
+        "fog_color": 11650977,
+        "water_color": 11650977,
+        "water_fog_color": 11650977,
+        "temperature_modifier": "none",
+        "ambient_sound": {
+            "sound_id": "minecraft:ambient.basalt_deltas.loop",
+            "range": 4
+        },
+        "particle": {
+            "options": {
+                "type": "minecraft:white_ash"
+            },
+            "probability": 0.45
+        }
+    },
+    "carvers": [],
+    "features": [
+        [
+            "wastelandia:dead_bush"
+        ],
+        [
+            "wastelandia:dead_tree1"
+        ]
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:skeleton",
+                "weight": 100,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "minecraft:zombie",
+                "weight": 100,
+                "minCount": 2,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:zombie_villager",
+                "weight": 30,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "minecraft:phantom",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:iron_golem",
+                "weight": 2,
+                "minCount": 0,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:skeleton_horse",
+                "weight": 1,
+                "minCount": 0,
+                "maxCount": 1
+            }
+        ]
+        
+    },
+    "spawn_costs": {}
+}

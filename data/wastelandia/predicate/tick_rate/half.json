@@ -1,0 +1,6 @@
+{
+  "condition": "minecraft:time_check",
+  "clock": "minecraft:game_time",
+  "period": 2,
+  "value": 0
+}
