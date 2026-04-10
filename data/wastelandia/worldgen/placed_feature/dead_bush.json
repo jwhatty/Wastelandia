@@ -1,19 +1,19 @@
 {
-    "feature": "wastelandia:dead_bush",
-    "placement": [
-        {
-            "type": "rarity_filter",
-            "chance": 7
-        },
-        {
-            "type": "in_square"
-        },
-        {
-            "type": "heightmap",
-            "heightmap": "WORLD_SURFACE_WG"
-        },
-        {
-            "type": "biome"
-        }
-    ]
+  "feature": "wastelandia:dead_bush",
+  "placement": [
+    {
+      "type": "rarity_filter",
+      "chance": 7
+    },
+    {
+      "type": "in_square"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "biome"
+    }
+  ]
 }

@@ -1,6 +1,3 @@
 {
-  "values": [
-    "wastelandia:no_burn_tick",
-    "wastelandia:radiation_tick"
-  ]
+  "values": ["wastelandia:no_burn_tick", "wastelandia:radiation_tick", "wastelandia:creaking_tag", "wastelandia:creaking_buff"]
 }
