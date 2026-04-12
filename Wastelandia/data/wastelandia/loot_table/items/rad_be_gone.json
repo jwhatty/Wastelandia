@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "RadBeGone - 1X", "color": "aqua", "italic": false },
+                "minecraft:lore": [{ "text": "Provides 30s of 100% immunity.", "color": "gray", "italic": false }],
+                "minecraft:custom_data": "{rad_be_gone:1}",
+                "minecraft:food": { "nutrition": 0, "saturation": 0, "can_always_eat": true }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

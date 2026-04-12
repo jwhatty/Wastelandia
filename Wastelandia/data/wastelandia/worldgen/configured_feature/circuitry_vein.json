@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:scattered_ore",
+  "config": {
+    "size": 12,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      { "target": { "predicate_type": "minecraft:random_block_match", "block": "minecraft:deepslate", "probability": 0.2 }, "state": { "Name": "minecraft:raw_gold_block" } },
+      { "target": { "predicate_type": "minecraft:block_match", "block": "minecraft:deepslate" }, "state": { "Name": "minecraft:raw_copper_block" } },
+      { "target": { "predicate_type": "minecraft:random_block_match", "block": "minecraft:stone", "probability": 0.2 }, "state": { "Name": "minecraft:raw_gold_block" } },
+      { "target": { "predicate_type": "minecraft:block_match", "block": "minecraft:stone" }, "state": { "Name": "minecraft:raw_copper_block" } },
+      { "target": { "predicate_type": "minecraft:random_block_match", "block": "minecraft:andesite", "probability": 0.2 }, "state": { "Name": "minecraft:raw_gold_block" } },
+      { "target": { "predicate_type": "minecraft:block_match", "block": "minecraft:andesite" }, "state": { "Name": "minecraft:raw_copper_block" } },
+      { "target": { "predicate_type": "minecraft:random_block_match", "block": "minecraft:soul_sand", "probability": 0.2 }, "state": { "Name": "minecraft:raw_gold_block" } },
+      { "target": { "predicate_type": "minecraft:block_match", "block": "minecraft:soul_sand" }, "state": { "Name": "minecraft:raw_copper_block" } },
+      { "target": { "predicate_type": "minecraft:random_block_match", "block": "minecraft:soul_soil", "probability": 0.2 }, "state": { "Name": "minecraft:raw_gold_block" } },
+      { "target": { "predicate_type": "minecraft:block_match", "block": "minecraft:soul_soil" }, "state": { "Name": "minecraft:raw_copper_block" } },
+      { "target": { "predicate_type": "minecraft:random_block_match", "block": "minecraft:mud", "probability": 0.2 }, "state": { "Name": "minecraft:raw_gold_block" } },
+      { "target": { "predicate_type": "minecraft:block_match", "block": "minecraft:mud" }, "state": { "Name": "minecraft:raw_copper_block" } }
+    ]
+  }
+}

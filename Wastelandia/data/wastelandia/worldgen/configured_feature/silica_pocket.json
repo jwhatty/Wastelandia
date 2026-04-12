@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 10,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      { "target": { "predicate_type": "minecraft:random_block_match", "block": "minecraft:deepslate", "probability": 0.3 }, "state": { "Name": "minecraft:amethyst_block" } },
+      { "target": { "predicate_type": "minecraft:block_match", "block": "minecraft:deepslate" }, "state": { "Name": "minecraft:glass" } },
+      { "target": { "predicate_type": "minecraft:random_block_match", "block": "minecraft:stone", "probability": 0.3 }, "state": { "Name": "minecraft:amethyst_block" } },
+      { "target": { "predicate_type": "minecraft:block_match", "block": "minecraft:stone" }, "state": { "Name": "minecraft:glass" } },
+      { "target": { "predicate_type": "minecraft:random_block_match", "block": "minecraft:andesite", "probability": 0.3 }, "state": { "Name": "minecraft:amethyst_block" } },
+      { "target": { "predicate_type": "minecraft:block_match", "block": "minecraft:andesite" }, "state": { "Name": "minecraft:glass" } }
+    ]
+  }
+}

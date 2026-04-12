@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": { "min": 1, "max": 2 },
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/rad_be_gone", "weight": 12 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/rad_be_gone_2", "weight": 8 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/rad_be_gone_3", "weight": 4 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/anti_rads_boots", "weight": 3 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/anti_rads_leggings", "weight": 3 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/anti_rads_chestplate", "weight": 2 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/anti_rads_helmet", "weight": 3 }
+      ]
+    },
+    {
+      "rolls": { "min": 2, "max": 4 },
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:raw_iron", "weight": 10, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }] },
+        { "type": "minecraft:item", "name": "minecraft:raw_copper", "weight": 10, "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 5 } }] },
+        { "type": "minecraft:item", "name": "minecraft:raw_gold", "weight": 5, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }] },
+        { "type": "minecraft:item", "name": "minecraft:coal", "weight": 12, "functions": [{ "function": "minecraft:set_count", "count": { "min": 3, "max": 7 } }] },
+        { "type": "minecraft:item", "name": "minecraft:tinted_glass", "weight": 4, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }] },
+        { "type": "minecraft:item", "name": "minecraft:gold_nugget", "weight": 8, "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 6 } }] }
+      ]
+    },
+    {
+      "rolls": { "min": 3, "max": 6 },
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:rotten_flesh", "weight": 15 },
+        { "type": "minecraft:item", "name": "minecraft:poisonous_potato", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:dried_kelp", "weight": 10, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 4 } }] },
+        { "type": "minecraft:item", "name": "minecraft:stick", "weight": 15, "functions": [{ "function": "minecraft:set_count", "count": { "min": 2, "max": 5 } }] },
+        { "type": "minecraft:item", "name": "minecraft:paper", "weight": 10, "functions": [{ "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }] },
+        { "type": "minecraft:item", "name": "minecraft:dirt", "weight": 15 }
+      ]
+    }
+  ]
+}

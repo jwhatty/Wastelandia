@@ -1,0 +1,94 @@
+{
+  "has_precipitation": false,
+  "temperature": 2.0,
+  "temperature_modifier": "none",
+  "downfall": 0.4,
+  "effects": {
+    "sky_color": 10803805,
+    "fog_color": 14337885,
+    "water_color": 14337885,
+    "water_fog_color": 14337885,
+    "ambient_sound": {
+      "sound_id": "minecraft:ambient.warped_forest.loop",
+      "range": 4
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:falling_spore_blossom"
+      },
+      "probability": 0.01
+    }
+  },
+  "carvers": ["minecraft:canyon"],
+  "features": [
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [
+    "wastelandia:medical_tank",
+    "wastelandia:industrial_foundation",
+    "wastelandia:circuitry_vein",
+    "wastelandia:silica_pocket"
+  ],
+  [],
+  [],
+  [],
+  []
+],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:slime",
+        "weight": 80,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 70,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:zoglin",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:piglin_brute",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:drowned",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:guardian",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:ghast",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:elder_guardian",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {}
+}

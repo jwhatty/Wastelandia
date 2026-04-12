@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{rad_be_gone:2}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "wastelandia:use_rad_be_gone_2"
+  }
+}
