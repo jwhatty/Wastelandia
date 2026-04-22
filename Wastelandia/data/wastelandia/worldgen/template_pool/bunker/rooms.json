@@ -1,0 +1,10 @@
+{
+  "name": "wastelandia:bunker/rooms",
+  "fallback": "minecraft:empty",
+  "elements": [
+    { "weight": 10, "selection_priority": 1, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:bunker/rooms/bunker_room", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 7, "selection_priority": 1, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:bunker/rooms/bunker_medical", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 3, "selection_priority": 1, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:bunker/rooms/bunker_armory", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 1, "selection_priority": 1, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:bunker/rooms/bunker_vault", "projection": "rigid", "processors": "minecraft:empty" } }
+  ]
+}

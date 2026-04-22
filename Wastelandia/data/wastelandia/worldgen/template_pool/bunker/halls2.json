@@ -1,0 +1,8 @@
+{
+  "name": "wastelandia:bunker/halls2",
+  "fallback": "wastelandia:bunker/rooms",
+  "elements": [
+    { "weight": 1, "selection_priority": 5, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:bunker/halls/bunker_hall_2", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 1, "selection_priority": 5, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:bunker/halls/bunker_hall_2b", "projection": "rigid", "processors": "minecraft:empty" } }
+  ]
+}

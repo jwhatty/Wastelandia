@@ -19,7 +19,7 @@
       "probability": 0.2
     }
   },
-  "carvers": ["minecraft:canyon", "minecraft:cave_extra_underground"],
+  "carvers": ["minecraft:canyon"],
   "features": [
     [],
     [],
@@ -79,7 +79,7 @@
         "spawn_data": {
           "entity": {
             "id": "minecraft:creaking",
-            "Health": 20.0,
+            "Health": 40.0,
             "Attributes": [
               {
                 "id": "minecraft:generic.max_health",

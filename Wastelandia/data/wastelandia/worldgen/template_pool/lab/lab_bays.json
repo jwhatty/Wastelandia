@@ -1,0 +1,9 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    { "weight": 1, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/bays/lab_bay_1", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 1, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/bays/lab_bay_2", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 1, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/bays/lab_bay_3", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 1, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/bays/lab_bay_4", "projection": "rigid", "processors": "minecraft:empty" } }
+  ]
+}

@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "wastelandia:use_rad_be_gone_2"
+    "function": "wastelandia:rads/radbegone/use_rad_be_gone_2"
   }
 }

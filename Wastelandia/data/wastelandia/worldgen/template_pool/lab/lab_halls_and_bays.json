@@ -1,0 +1,16 @@
+{
+  "fallback": "wastelandia:lab/lab_dead_end",
+  "elements": [
+    { "weight": 6, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/halls/straight/lab_hall_st_1", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 6, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/halls/straight/lab_hall_st_2", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 6, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/halls/straight/lab_hall_st_3", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 2, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/halls/cross/lab_hall_crs_1", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 2, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/halls/l/lab_hall_l_1", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 2, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/halls/t/lab_hall_t_1", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 4, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/bays/lab_bay_1", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 4, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/bays/lab_bay_2", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 4, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/bays/lab_bay_3", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 4, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/bays/lab_bay_4", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 1, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:lab/dead_end/lab_dead_end", "projection": "rigid", "processors": "minecraft:empty" } }
+  ]
+}

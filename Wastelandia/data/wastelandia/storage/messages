@@ -1,0 +1,13 @@
+{
+  "norad": "{\"text\":\"✚ NO RADIATION DETECTED ✚\",\"color\":\"aqua\"}",
+  "radgone": "{\"text\":\"🛡 RAD-BE-GONE ACTIVE: 100% IMMUNITY\",\"color\":\"aqua\"}",
+  "water": "{\"text\":\"☠ WATER IS HIGHLY RADIOACTIVE! ☠\",\"color\":\"dark_red\",\"bold\":true}",
+  "biome1": "{\"text\":\"☢ BIOME: SUIT FAILING\",\"color\":\"red\",\"bold\":true}",
+  "biome2": "{\"text\":\"☢ BIOME: SUIT FILTERING\",\"color\":\"gold\"}",
+  "biome3": "{\"text\":\"☢ BIOME: SUIT HOLDING\",\"color\":\"yellow\"}",
+  "biome4": "{\"text\":\"🛡 BIOME: SUIT SEALED\",\"color\":\"green\"}",
+  "mutant1": "{\"text\":\"☣ MUTANT: LOCALIZED FALLOUT\",\"color\":\"dark_red\",\"bold\":true}",
+  "mutant2": "{\"text\":\"☣ MUTANT: HIGH RADIATION\",\"color\":\"gold\",\"bold\":true}",
+  "mutant3": "{\"text\":\"☣ MUTANT: LOW RADIATION\",\"color\":\"yellow\"}",
+  "mutant4": "{\"text\":\"🛡 MUTANT: RADIATION BLOCKED\",\"color\":\"dark_green\"}"
+}

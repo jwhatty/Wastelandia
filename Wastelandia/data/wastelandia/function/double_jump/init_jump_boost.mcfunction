@@ -1,0 +1,1 @@
+scoreboard objectives add behemoth_sneak minecraft.custom:minecraft.sneak_time

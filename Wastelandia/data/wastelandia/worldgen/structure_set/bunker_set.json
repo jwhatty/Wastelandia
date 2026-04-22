@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "wastelandia:bunker",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 6,
+    "salt": 12345678,
+    "spread_type": "linear"
+  }
+}

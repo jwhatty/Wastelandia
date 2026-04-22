@@ -1,3 +1,3 @@
 {
-  "values": ["wastelandia:init_rads"]
+  "values": ["wastelandia:rads/init_rads", "wastelandia:rads/display/init_messages", "wastelandia:double_jump/init_jump_boost", "wastelandia:behemoth/behemoth_fuel", "wastelandia:behemoth/behemoth_temp"]
 }

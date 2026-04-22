@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": { "text": "Anti-Rads Behemoth Legs", "color": "gold", "bold": true, "italic": false },
+                "minecraft:custom_data": "{anti_rad:1,behemoth:1}",
+                "minecraft:max_damage": 2500,
+                "minecraft:max_stack_size": 1,
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:lore": [
+                  { "text": "Indestructible plating designed for Ground Zero.", "color": "yellow", "italic": true },
+                  { "text": "Tier IV Protection", "color": "gray", "italic": true }
+                ],
+                "minecraft:attribute_modifiers": [
+                  { "type": "minecraft:knockback_resistance", "amount": 0.2, "operation": "add_value", "slot": "legs", "id": "behemoth_kb_legs" },
+                  { "type": "minecraft:movement_speed", "amount": -0.10, "operation": "add_multiplied_total", "slot": "legs", "id": "behemoth_slow_legs" },
+                  { "type": "minecraft:fall_damage_multiplier", "amount": -0.25, "operation": "add_value", "slot": "legs", "id": "behemoth_fall_legs" },
+                  { "type": "minecraft:burning_time", "amount": 0.0, "operation": "add_value", "slot": "legs", "id": "behemoth_fire_legs" }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": { "minecraft:protection": 5, "minecraft:fire_protection": 4, "minecraft:unbreaking": 3, "minecraft:mending": 1 },
+              "add": false
+            },
+            { "function": "minecraft:toggle_tooltips", "toggles": { "minecraft:enchantments": false } }
+          ]
+        }
+      ]
+    }
+  ]
+}

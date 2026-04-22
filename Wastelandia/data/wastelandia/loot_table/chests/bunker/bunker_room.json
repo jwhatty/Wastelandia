@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": { "min": 2, "max": 4 },
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:golden_apple", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:saddle", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:name_tag", "weight": 8 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/anti_rads_boots", "weight": 12 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/anti_rads_helmet", "weight": 12 }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/rad_be_gone_2", "weight": 20 },
+        { "type": "minecraft:item", "name": "minecraft:iron_block", "weight": 5 },
+        { "type": "minecraft:empty", "weight": 15 }
+      ]
+    }
+  ]
+}

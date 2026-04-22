@@ -11,6 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:item_model": "wastelandia:rad_be_gone",
                 "minecraft:item_name": { "text": "RadBeGone - 1X", "color": "aqua", "italic": false },
                 "minecraft:lore": [{ "text": "Provides 30s of 100% immunity.", "color": "gray", "italic": false }],
                 "minecraft:custom_data": "{rad_be_gone:1}",

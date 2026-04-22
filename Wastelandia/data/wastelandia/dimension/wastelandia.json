@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:overworld",
+  "type": "wastelandia:wastelandia",
   "generator": {
     "type": "minecraft:noise",
     "biome_source": {

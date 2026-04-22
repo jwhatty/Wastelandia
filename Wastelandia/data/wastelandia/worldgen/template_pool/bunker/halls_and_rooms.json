@@ -1,0 +1,14 @@
+{
+  "name": "wastelandia:bunker/halls_and_rooms",
+  "fallback": "minecraft:empty",
+  "elements": [
+    { "weight": 10, "selection_priority": 2, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:bunker/halls/bunker_hall_1", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 5, "selection_priority": 2, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:bunker/halls/bunker_hall_1b", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 25, "selection_priority": 2, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:bunker/halls/bunker_hall_2", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 15, "selection_priority": 2, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:bunker/halls/bunker_hall_2b", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 4, "selection_priority": 1, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:bunker/rooms/bunker_room", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 3, "selection_priority": 1, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:bunker/rooms/bunker_medical", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 2, "selection_priority": 1, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:bunker/rooms/bunker_armory", "projection": "rigid", "processors": "minecraft:empty" } },
+    { "weight": 1, "selection_priority": 1, "element": { "element_type": "minecraft:single_pool_element", "location": "wastelandia:bunker/rooms/bunker_vault", "projection": "rigid", "processors": "minecraft:empty" } }
+  ]
+}
