@@ -12,7 +12,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": { "text": "Anti-Rads Scout Boots", "color": "green", "italic": false },
-                "minecraft:dyed_color": 4673362,
+                "minecraft:equippable": {
+                  "slot": "feet",
+                  "asset_id": "wastelandia:scout_suit"
+                },
+                "minecraft:dyed_color": 337828,
                 "minecraft:custom_data": "{anti_rad:1}",
                 "minecraft:max_damage": 425,
                 "minecraft:max_stack_size": 1,

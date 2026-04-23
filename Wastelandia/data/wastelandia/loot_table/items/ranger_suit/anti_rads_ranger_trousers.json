@@ -12,6 +12,10 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": { "text": "Anti-Rads Ranger Trousers", "color": "aqua", "italic": false },
+                "minecraft:equippable": {
+                  "slot": "legs",
+                  "asset_id": "wastelandia:ranger_suit"
+                },
                 "minecraft:custom_data": "{anti_rad:1}",
                 "minecraft:max_damage": 650,
                 "minecraft:max_stack_size": 1,

@@ -12,6 +12,10 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": { "text": "Anti-Rads Enforcer Boots", "color": "light_purple", "italic": false },
+                "minecraft:equippable": {
+                  "slot": "feet",
+                  "asset_id": "wastelandia:enforcer_suit"
+                },
                 "minecraft:custom_data": "{anti_rad:1}",
                 "minecraft:max_damage": 1200,
                 "minecraft:max_stack_size": 1,
