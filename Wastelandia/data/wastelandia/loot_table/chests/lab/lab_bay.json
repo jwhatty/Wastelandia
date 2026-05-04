@@ -4,21 +4,21 @@
     {
       "rolls": { "min": 2, "max": 4 },
       "entries": [
-        { "type": "minecraft:item", "name": "wastelandia:items/anti_rad_behemoth_boots", "weight": 1 },
-        { "type": "minecraft:item", "name": "wastelandia:items/anti_rad_behemoth_chestplate", "weight": 1 },
-        { "type": "minecraft:item", "name": "wastelandia:items/anti_rad_behemoth_helmet", "weight": 1 },
-        { "type": "minecraft:item", "name": "wastelandia:items/anti_rad_behemoth_legs", "weight": 1 },
-        { "type": "minecraft:item", "name": "wastelandia:items/anti_rad_enforcer_boots", "weight": 8 },
-        { "type": "minecraft:item", "name": "wastelandia:items/anti_rad_enforcer_chestplate", "weight": 8 },
-        { "type": "minecraft:item", "name": "wastelandia:items/anti_rad_enforcer_leggings", "weight": 8 },
-        { "type": "minecraft:item", "name": "wastelandia:items/anti_rad_enforcer_visor", "weight": 8 }
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/behemoth_suit/anti_rads_behemoth_boots", "weight": 1 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/behemoth_suit/anti_rads_behemoth_chestplate", "weight": 1 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/behemoth_suit/anti_rads_behemoth_helmet", "weight": 1 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/behemoth_suit/anti_rads_behemoth_legs", "weight": 1 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/enforcer_suit/anti_rads_enforcer_boots", "weight": 8 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/enforcer_suit/anti_rads_enforcer_chestpiece", "weight": 8 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/enforcer_suit/anti_rads_enforcer_leggings", "weight": 8 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/enforcer_suit/anti_rads_enforcer_visor", "weight": 8 }
       ]
     },
     {
       "rolls": 1,
       "entries": [
-        { "type": "minecraft:item", "name": "wastelandia:items/rad_be_gone_3", "weight": 10 },
-        { "type": "minecraft:item", "name": "wastelandia:items/behemoth_fuel", "weight": 5 }
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/rad_be_gone_3", "weight": 10 },
+        { "type": "minecraft:loot_table", "value": "wastelandia:items/behemoth_suit/behemoth_fuel", "weight": 5 }
       ]
     },
     {

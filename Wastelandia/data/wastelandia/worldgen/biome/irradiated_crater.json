@@ -21,23 +21,23 @@
   },
   "carvers": ["minecraft:canyon"],
   "features": [
-  [],
-  [],
-  [],
-  [],
-  [],
-  [],
-  [
-    "wastelandia:medical_tank",
-    "wastelandia:industrial_foundation",
-    "wastelandia:circuitry_vein",
-    "wastelandia:silica_pocket"
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "wastelandia:medical_tank",
+      "wastelandia:industrial_foundation",
+      "wastelandia:circuitry_vein",
+      "wastelandia:silica_pocket"
+    ],
+    [],
+    [],
+    [],
+    []
   ],
-  [],
-  [],
-  [],
-  []
-],
   "spawners": {
     "monster": [
       {
@@ -68,7 +68,24 @@
         "type": "minecraft:piglin_brute",
         "weight": 50,
         "minCount": 1,
-        "maxCount": 1
+        "maxCount": 1,
+        "spawn_data": {
+          "entity": {
+            "id": "minecraft:piglin_brute",
+            "HandItems": [
+              {
+                "id": "minecraft:iron_axe",
+                "count": 1,
+                "components": {
+                  "minecraft:attribute_modifiers": []
+                }
+              },
+              {}
+            ],
+            "HandDropChances": [2.0, 0.085],
+            "EquipmentLootTable": "minecraft:empty"
+          }
+        }
       },
       {
         "type": "minecraft:drowned",

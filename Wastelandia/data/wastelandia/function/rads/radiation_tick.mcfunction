@@ -24,8 +24,7 @@ execute as @a[scores={rads=0}] at @s unless predicate wastelandia:in_crater unle
 execute as @a[gamemode=survival,scores={rads=1..}] run function wastelandia:rads/player/apply_effects
 
 # --- HUD PRIORITY OVERRIDE ---
-# This runs AFTER all other title calls (Biome, Mutant, Water, Clear)
-# It "paints over" them to ensure Rad-Be-Gone is always the visible message if active
+# This runs AFTER all other title calls (Biome, Mutant, Water, Clear) to ensure Rad-Be-Gone is always the visible message if active
 execute as @a[scores={rad_timer=1..}] run function wastelandia:rads/display/show with storage wastelandia:messages radgone
 
 # --- FINAL CLEANUP ---

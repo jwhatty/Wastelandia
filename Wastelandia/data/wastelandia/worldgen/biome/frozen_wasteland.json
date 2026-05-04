@@ -26,25 +26,24 @@
     "minecraft:nether_cave"
   ],
   "features": [
-    [],                                         
-    ["minecraft:ice_patch"],                    
-    [],                                         
-    ["minecraft:fossil_upper", "minecraft:fossil_lower"], 
-    ["minecraft:ice_spike"],                    
-    [],                                         
-    [                                           
-      "minecraft:blue_ice", 
-      "minecraft:disk_gravel", 
+    [],
+    ["minecraft:ice_patch"],
+    [],
+    ["minecraft:fossil_upper", "minecraft:fossil_lower"],
+    ["minecraft:ice_spike"],
+    [],
+    [
+      "minecraft:blue_ice",
+      "minecraft:disk_gravel",
       "minecraft:ore_iron_upper",
-      "wastelandia:circuitry_vein",             
-      "wastelandia:silica_pocket"               
+      "wastelandia:circuitry_vein",
+      "wastelandia:silica_pocket"
     ],
-    ["minecraft:forest_rock"],                  
-    [],                                         
-    ["wastelandia:dead_tree2"],                 
-    ["minecraft:freeze_top_layer"]              
-]
-,
+    ["minecraft:forest_rock"],
+    [],
+    ["wastelandia:dead_tree2"],
+    ["minecraft:freeze_top_layer"]
+  ],
   "spawners": {
     "monster": [
       {

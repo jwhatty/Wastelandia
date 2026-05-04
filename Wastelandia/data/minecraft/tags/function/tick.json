@@ -1,3 +1,12 @@
 {
-  "values": ["wastelandia:no_burn_tick", "wastelandia:rads/radiation_tick", "wastelandia:rads/creaking/creaking_tag", "wastelandia:rads/creaking/creaking_tick", "wastelandia:behemoth/behemoth_check", "wastelandia:behemoth/behemoth_tick", "wastelandia:double_jump/jump_boost_tick"]
+  "values": [
+    "wastelandia:no_burn_tick",
+    "wastelandia:rads/radiation_tick",
+    "wastelandia:rads/creaking/creaking_tag",
+    "wastelandia:rads/creaking/creaking_tick",
+    "wastelandia:behemoth/behemoth_check",
+    "wastelandia:behemoth/behemoth_tick",
+    "wastelandia:double_jump/jump_boost_tick",
+    "wastelandia:mob_gear/mob_check"
+  ]
 }
